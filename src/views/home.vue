@@ -46,7 +46,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .scroll-height{
   height: 300px;
   overflow: hidden;
