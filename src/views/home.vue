@@ -10,7 +10,7 @@
         <li v-for="n in 100" :key="n">滚动条</li>
       </ul>
     </Scroll>
-    <a @click="showToast" style="font-size: 12px;">主页</a>
+    <a @click="showToast" class="font-12">主页</a>
     <a @click="$router.push({name: 'detail'})">详情</a>
   </div>
 </template>
@@ -50,5 +50,8 @@ export default {
 .scroll-height{
   height: 300px;
   overflow: hidden;
+}
+.font-12{
+  font-size: 12px;
 }
 </style>
